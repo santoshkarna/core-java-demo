@@ -10,5 +10,6 @@ public class Addition {
         System.out.println("Sum of number1 and number2 is: " + sum);
         System.out.println("Sum of " + number1 + " and " + number2 + " is: " + sum);
         System.out.println("added");
+        System.out.println("added third time");
     }
 }
