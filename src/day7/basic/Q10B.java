@@ -12,7 +12,8 @@ public class Q10B {
         System.out.println("Enter c: ");
         double c = sc.nextDouble();
         double s = (a + b + c) / 2;
-        double area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+        double m = s * (s - a) * (s - b) * (s - c);
+        double area = Math.sqrt(m);
         System.out.println("The area of the triangle is " + area);
     }
 }
